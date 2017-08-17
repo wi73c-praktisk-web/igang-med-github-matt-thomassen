@@ -1,5 +1,2 @@
-var spil = [
-    "Falke"
-    "Falk2"
-    "Falk3"
-];
+var person = [["Ronny", "Falke"] + " " + ["Jenny", "Mohamed"] + " " + ["Matt", "Mikkel"]];
+console.log(person);

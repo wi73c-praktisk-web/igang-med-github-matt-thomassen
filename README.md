@@ -22,3 +22,5 @@ if(true){
 ````
 # beskrivelse af hvad vi har lavet 15-08-2017
 ### Vi har brugt par timer på at Visual Studio Code
+
+### For at lave en ny repository. Gå ind på github, klik på '+', så klik på "creat repository"

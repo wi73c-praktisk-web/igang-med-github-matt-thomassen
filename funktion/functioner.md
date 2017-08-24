@@ -10,6 +10,7 @@ sayHey('Matt')
 
 ```
 
+### variabel sayHello har argumenten 'Matt' og 'Thomassen'. Jeg får funktionen til at udskrive who some er argumenten fra sayHello. Efter udskriver den sayHello('20') fotrdi systemet laæser fra toppen til bund.
 ```javascript
 
 var sayHello('Matt');  // Udskriver "hello hoisting"
@@ -21,7 +22,7 @@ function sayHello(who) { // who er et argument
 sayHello('20'); // Udskriver "20"
 
 ```
-
+### Vi har en var med function SayHey
 
 ```javascript
 
@@ -160,4 +161,43 @@ add(3, 8); //Udskriver "x er lig med 3 og y=8. Sum:  11"
 var idol = ["Matt", "Thomassen", "01/04/97"];
 console.log(profil(idol)); // Udskriver "Matt Thomassen 1997"
 
-````
+```
+
+```javascript
+
+//Øvelse, Fix koden 3: En simpelt funktion 
+function sammensaetTekst (forste, anden) { //parameter for forste og anden
+	return forste + " " + anden;  //fjernet "" for eller vil det udskirves som tekst.
+}
+
+
+var resultat = sammensaetTekst ("Mickey", "Mouse");
+
+console.log (resultat); // Forventede resultat: "Mickey Mouse"
+
+```
+
+```javascript
+
+// Disse oplysninger kommer selvfølgelig typisk fra en formular
+var brugernavn = "";
+var password = "";
+var email = "";
+
+var fejlbeskeder = [];
+
+if (brugernavn == "") {
+	fejlbeskeder = ["Du skal udfylde brugernavn feltet\n"];
+}
+
+if (password == "") {
+	fejlbeskeder = ["Du skal udfylde password feltet\n"];
+}
+
+if (email == "") {
+	fejlbeskeder = ["Du skal udfylde email feltet\n"];
+}
+
+console.log (fejlbeskeder);
+
+```

@@ -120,16 +120,71 @@
 //  var idol = ["Ronny", "W. G.",  "1996/12/29"];
 //  console.log(profil(idol));
 
- var profil = function (p) { //profile har functionen p
-    var dato = new Date();
-    dato = dato.getFullYear();
+//  var profil = function (p) { //profile har functionen p
+//     var dato = new Date();
+//     dato = dato.getFullYear();
     
-    var bday = new Date(p[2]);
-    bday = bday.getFullYear();
-    var age = dato - bday;
-     return p[0] + " " + p[1] + ": Født" + " " + p[2] + " " + "er " +age + " år"; // Returnerer tekst-strengen "Peter Pedal: Født 1941"
+//     var bday = new Date(p[2]);
+//     bday = bday.getFullYear();
+//     var age = dato - bday;
+//      return p[0] + " " + p[1] + ": Født" + " " + p[2] + " " + "er " +age + " år"; // Returnerer tekst-strengen "Peter Pedal: Født 1941"
 
-   // return p[0] + " " + p[1] + " " + p[2] + ": født i" + p[3]+ " age" +age;
+//    // return p[0] + " " + p[1] + " " + p[2] + ": født i" + p[3]+ " age" +age;
+// }
+// var idol = ["Matt", "Thomassen", "01/04/97"];
+// console.log(profil(idol)); // Udskriver "Matt Thomassen 1997"
+
+
+// //Øvelse, Fix koden 3: En simpelt funktion 
+// function sammensaetTekst (forste, anden) { //parameter for forste og anden
+// 	return forste + " " + anden;  //fjernet "" for eller vil det udskirves som tekst.
+// }
+
+
+// var resultat = sammensaetTekst ("Mickey", "Mouse");
+
+// console.log (resultat); // Forventede resultat: "Mickey Mouse"
+
+
+
+// Disse oplysninger kommer selvfølgelig typisk fra en formular
+// var brugernavn = "";
+// var password = "";
+// var email = "";
+
+// var fejlbeskeder = [];
+
+// if (brugernavn = "") {
+// 	fejlbeskeder = ["Du skal udfylde brugernavn feltet\n"];
+// }
+
+// if (password == "") {
+// 	fejlbeskeder = ["Du skal udfylde password feltet\n"];
+// }
+
+// if (email == "") {
+// 	fejlbeskeder = ["Du skal udfylde email feltet\n"];
+// }
+
+// console.log (fejlbeskeder);
+
+// Disse oplysninger kommer selvfølgelig typisk fra en formular
+var navn = "";
+var alder = "";
+var adresse = "";
+
+var fejlbeskeder = "";
+
+if (navn == "") {
+	fejlbeskeder = "Du skal udfylde navn feltet\n";
 }
-var idol = ["Matt", "Thomassen", "01/04/97"];
-console.log(profil(idol)); // Udskriver "Matt Thomassen 1997"
+
+if (alder == "") {
+	fejlbeskeder = "Du skal udfylde alder feltet\n";
+}
+
+if (adresse == "") {
+	fejlbeskeder = "Du skal udfylde adresse feltet\n";
+}
+
+console.log (fejlbeskeder);

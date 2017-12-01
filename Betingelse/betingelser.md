@@ -13,6 +13,8 @@ if(true){
 
 ### Øvelse 2
 ### Math.random laver en tal mellem 0 og 1.
+### Math.floor runder up til hele tal.
+### Så hvis tallet fra Math.floor og Math.random ganget med 11 er større end 5 so udskirver den teksten. Hvis den ikke er sp udskirver den teksten under else.
 
 ```javascript
 
@@ -26,6 +28,7 @@ if(tal>5){
 
 ```
 ### Øvelse 3
+###
 
 ```javascript
 

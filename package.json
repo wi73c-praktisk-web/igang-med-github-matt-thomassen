@@ -1,0 +1,22 @@
+{
+  "name": "igang-med-github-matt-thomassen",
+  "version": "1.0.0",
+  "description": "[Google](http://www.google.com)",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi73c-praktisk-web/igang-med-github-matt-thomassen.git"
+  },
+  "author": "matt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wi73c-praktisk-web/igang-med-github-matt-thomassen/issues"
+  },
+  "homepage": "https://github.com/wi73c-praktisk-web/igang-med-github-matt-thomassen#readme",
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
